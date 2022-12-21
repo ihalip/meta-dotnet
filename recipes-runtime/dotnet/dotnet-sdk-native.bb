@@ -4,12 +4,13 @@ HOMEPAGE = "https://dotnet.microsoft.com/en-us/download/dotnet/7.0"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=9fc642ff452b28d62ab19b7eea50dfb9"
 
-SOURCE_FILE = "dotnet-sdk-7.0.101-linux-arm64.tar.gz"
+SOURCE_FILE = "dotnet-sdk-7.0.101-linux-x64.tar.gz"
 
-SRC_URI = "https://download.visualstudio.microsoft.com/download/pr/caa0e6fb-770c-4b21-ba55-30154a7a9e11/3231af451861147352aaf43cf23b16ea/${SOURCE_FILE};unpack=0 \
+SRC_URI = "https://download.visualstudio.microsoft.com/download/pr/7fe73a07-575d-4cb4-b2d3-c23d89e5085f/d8b2b7e1c0ed99c1144638d907c6d152
+/${SOURCE_FILE};unpack=0 \
            file://LICENSE.txt \
 "
-SRC_URI[sha256sum] = "45417621eeae8344d228be4bba284e8cc6d4523699c6e27db3d7ecfe2b0c6413"
+SRC_URI[sha512sum] = "cf289ad0e661c38dcda7f415b3078a224e8347528448429d62c0f354ee951f4e7bef9cceaf3db02fb52b5dd7be987b7a4327ca33fb9239b667dc1c41c678095c"
 
 inherit native
 
