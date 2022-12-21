@@ -1,12 +1,12 @@
 
-DESCRIPTION = ".NET Core SDK (v7.0.100) - Linux x64 Binaries"
-HOMEPAGE = "https://dotnet.microsoft.com/en-us/download/dotnet/6.0"
+DESCRIPTION = ".NET Core SDK (v7.0.101) - Linux x64 Binaries"
+HOMEPAGE = "https://dotnet.microsoft.com/en-us/download/dotnet/7.0"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=9fc642ff452b28d62ab19b7eea50dfb9"
 
-SOURCE_FILE = "dotnet-sdk-7.0.100-linux-x64.tar.gz"
+SOURCE_FILE = "dotnet-sdk-7.0.101-linux-arm64.tar.gz"
 
-SRC_URI = "https://download.visualstudio.microsoft.com/download/pr/253e5af8-41aa-48c6-86f1-39a51b44afdc/5bb2cb9380c5b1a7f0153e0a2775727b/${SOURCE_FILE};unpack=0 \
+SRC_URI = "https://download.visualstudio.microsoft.com/download/pr/caa0e6fb-770c-4b21-ba55-30154a7a9e11/3231af451861147352aaf43cf23b16ea/${SOURCE_FILE};unpack=0 \
            file://LICENSE.txt \
 "
 SRC_URI[sha256sum] = "5d4a58eeca1a4ab095b55e6486b1278147b0ab121ce883b2bcde3d3626c9a81c"
